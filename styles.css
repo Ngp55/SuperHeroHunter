@@ -151,6 +151,7 @@ img{
 .app-body{
     margin-top:4rem;
     height:600px;
+    
     overflow-y: scroll;
 }
 .app-body::-webkit-scrollbar{
@@ -217,11 +218,14 @@ img{
     
 }
 .app-body-content-thumbnail{
-    width: 80%;
+    width: 100%;
     border-radius: 80px;
     overflow: hidden;
     box-shadow: rgba(145, 158, 171, 0.24) -40px 40px 80px -8px; 
 
+}
+#favbtn{
+    cursor:pointer;
 }
 .app-body-content-list .name{
     text-transform: uppercase;
